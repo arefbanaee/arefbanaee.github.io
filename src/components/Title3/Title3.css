@@ -1,0 +1,118 @@
+#carousel-area {
+  overflow: hidden;
+  background: #e6f8ed;
+  height: 100vh;
+  width: 100%;
+  display: block !important;
+}
+
+#carousel-area .carousel-item {
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+#carousel-area .carousel-item .carousel-caption {
+  top: 25%;
+  right: 10%;
+  left: 12%;
+  text-shadow: none;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#carousel-area .carousel-item .carousel-caption h3 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 38px;
+}
+
+#carousel-area .carousel-item .carousel-caption h2 {
+  font-size: 4em;
+  font-weight: 700;
+  color: #fff;
+}
+
+#carousel-area .carousel-item .carousel-caption h4 {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+#carousel-area .carousel-control {
+  display: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#carousel-area:hover .carousel-control {
+  display: block;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+#carousel-area .carousel-control-next,
+#carousel-area .carousel-control-prev {
+  opacity: 1;
+}
+
+#carousel-area .carousel-control-next i,
+#carousel-area .carousel-control-prev i {
+  width: 48px;
+  line-height: 48px;
+  height: 48px;
+  color: #fff;
+  font-size: 24px;
+  display: inline-block;
+  background: none !important;
+  border-radius: 30px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+#carousel-area .carousel-control-next i:hover,
+#carousel-area .carousel-control-prev i:hover {
+  opacity: 0.9;
+}
+
+#carousel-area .carousel-indicators li:hover,
+#carousel-area .carousel-indicators li.active {
+  opacity: 1;
+}
+
+#carousel-area .carousel-indicators {
+  bottom: 35px;
+}
+
+#carousel-area .carousel-indicators li {
+  width: 30px;
+  height: 7px;
+  border-radius: 4px;
+}
+
+h1.wow,
+h2.wow,
+h3.wow,
+h4.wow,
+h5.wow {
+  background-color: #0000003b;
+  padding: 5px 15px;
+  border-radius: 5px;
+  display: block;
+  clear: both;
+  direction: rtl;
+}
