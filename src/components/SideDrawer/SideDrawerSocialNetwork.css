@@ -1,0 +1,11 @@
+.social-network {
+  /* background: rgba(8, 8, 8, 0.8); */
+  background-color: transparent;
+}
+
+.social-network__button {
+  background: transparent;
+  border-color: transparent;
+  color: white;
+  font-size: 2rem;
+}

@@ -1,0 +1,44 @@
+.time-table {
+  width: 100%;
+  background: "gray";
+}
+
+.time-table__title {
+  width: 100%;
+  margin: 0 0 0 0;
+  color: black;
+  font-size: 26px;
+}
+
+.time-table__info .vertical-timeline-element-content {
+  /* margin-left: 1rem;
+  margin-right: 1rem; */
+}
+
+.time-table__info .vertical-timeline-element-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.time-table__info .vertical-timeline-element-subtitle {
+  font-weight: bolder;
+  font-size: 0.75rem;
+  color: black;
+}
+
+.time-table__info p {
+  font-size: 0.75rem;
+  color: black;
+}
+
+.time-table__info .vertical-timeline-element-date {
+  color: black;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.time-table__info .vertical-timeline-element-icon {
+  box-shadow: 0 0 0 4px rgb(1, 19, 78), inset 0 2px 0 rgba(149, 149, 149, 0.08),
+    0 3px 0 4px rgba(216, 216, 216, 0.561);
+}
