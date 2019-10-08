@@ -1,0 +1,23 @@
+.toolbar {
+  padding: 0 0 0 0;
+  width: 100%;
+}
+
+.toolbar__navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* z-index: 999; */
+  width: 100%;
+  height: 2rem;
+}
+
+.toolbar__avatar {
+  height: 3rem;
+  width: 3rem;
+}
+
+.toolbar_toggle-button {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+}
